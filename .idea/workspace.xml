@@ -1,24 +1,138 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b5855719-ddee-4836-8bf7-3b96b9189db8" name="Default Changelist" comment="" />
+    <list default="true" id="b5855719-ddee-4836-8bf7-3b96b9189db8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/Jio/JioIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/Jio/JioIndexPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/Jio/JioVerification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1hVarIoIV52KQm312xwIhgxkxFC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager" selected="TestNG.JIODataProvider.test1">
+    <configuration name="JIODataProvider (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TBLOCKS_JIO_ANDROID_POC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.utils" />
+      <option name="MAIN_CLASS_NAME" value="com.utils.JIODataProvider" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JIODataProvider (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TBLOCKS_JIO_ANDROID_POC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.utils" />
+      <option name="MAIN_CLASS_NAME" value="com.utils.JIODataProvider" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JIODataProvider" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TBLOCKS_JIO_ANDROID_POC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.utils" />
+      <option name="MAIN_CLASS_NAME" value="com.utils.JIODataProvider" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JIODataProvider.test1 (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TBLOCKS_JIO_ANDROID_POC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.utils" />
+      <option name="MAIN_CLASS_NAME" value="com.utils.JIODataProvider" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JIODataProvider.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TBLOCKS_JIO_ANDROID_POC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.utils" />
+      <option name="MAIN_CLASS_NAME" value="com.utils.JIODataProvider" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.JIODataProvider.test1" />
+        <item itemvalue="TestNG.JIODataProvider (2)" />
+        <item itemvalue="TestNG.JIODataProvider (1)" />
+        <item itemvalue="TestNG.JIODataProvider" />
+        <item itemvalue="TestNG.JIODataProvider.test1 (2)" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -31,12 +145,59 @@
       <option name="presentableId" value="Default" />
       <updated>1600098911039</updated>
     </task>
+    <task id="LOCAL-00001" summary="First commit - 14/09/2020">
+      <created>1600100195756</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600100195756</updated>
+    </task>
+    <task id="LOCAL-00002" summary="First commit - 14/09/2020">
+      <created>1600100425785</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1600100425785</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First commit - 14/09/2020" />
+    <option name="LAST_COMMIT_MESSAGE" value="First commit - 14/09/2020" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="448" y="24" key="CommitChangelistDialog2" timestamp="1600149265257">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="448" y="24" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1600149265257" />
     <state x="580" y="185" key="FileChooserDialogImpl" timestamp="1600098955715">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="580" y="185" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1600098955715" />
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1600149240639">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1600149240639" />
+    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1600149240639">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1600149240639" />
+    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1600149240639">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1600149240639" />
+    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1600149240639">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1600149240639" />
+    <state x="392" y="151" key="Vcs.Push.Dialog.v2" timestamp="1600100428621">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="392" y="151" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1600100428621" />
+    <state x="182" y="125" key="new project wizard" timestamp="1600148459429">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="182" y="125" key="new project wizard/0.0.1600.860@0.0.1600.860" timestamp="1600148459429" />
   </component>
 </project>
