@@ -5,13 +5,6 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.Properties;
 
-/**
- * Created by Rahul R.
- * Date: 2019-07-31
- * Time:
- * Project Name: InCashMe
- */
-
 public interface Configuration {
 
     Properties configProp = new Properties();

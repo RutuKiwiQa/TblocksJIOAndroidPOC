@@ -1,5 +1,7 @@
 package com.framework.init;
 
+import com.Jio.JioIndexPage;
+import com.Jio.JioVerification;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.markuputils.ExtentColor;
 import com.aventstack.extentreports.markuputils.MarkupHelper;
@@ -37,6 +39,9 @@ public class SeleniumInit extends Generics implements Configuration {
 
     private DesiredCapabilities capability = new DesiredCapabilities();
 
+    protected JioIndexPage jioIndexPage;
+    protected JioVerification jioVerification;
+
 
 
     @BeforeSuite(alwaysRun = true)
@@ -60,7 +65,8 @@ public class SeleniumInit extends Generics implements Configuration {
         capability.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT, 600);
         capability.setCapability(MobileCapabilityType.FULL_RESET, false);
         capability.setCapability(MobileCapabilityType.NO_RESET, true);
-        capability.setCapability(AndroidMobileCapabilityType.APPLICATION_NAME, JIO_APK);
+       // capability.setCapability(AndroidMobileCapabilityType.APPLICATION_NAME, JIO_APK);
+        capability.setCapability("app",JIO_APK);
         capability.setCapability(AndroidMobileCapabilityType.APP_PACKAGE, JIO_APP_PACKAGE);
         capability.setCapability(AndroidMobileCapabilityType.APP_ACTIVITY, JIO_APP_ACTIVITY);
         capability.setCapability(AndroidMobileCapabilityType.AUTO_GRANT_PERMISSIONS, true);
@@ -71,6 +77,9 @@ public class SeleniumInit extends Generics implements Configuration {
         implicitWaitOf(androidDriver, 10);
 
         System.out.println("Session ID : " + androidDriver.getSessionId());
+
+        jioIndexPage = new JioIndexPage(androidDriver);
+        jioVerification = new JioVerification(androidDriver);
 
     }
 

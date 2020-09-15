@@ -2,11 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5855719-ddee-4836-8bf7-3b96b9189db8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/Jio/JioIndex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/Jio/JioIndexPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/Jio/JioVerification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExtentReports/Report_Default Suite_1600157074683.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExtentReports/Report_Default Suite_1600159927711.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExtentReports/Report_Default Suite_1600159985525.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExtentReports/Report_Default Suite_1600160180442.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExtentReports/Report_Default Suite_1600160277942.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExtentReports/Report_Default Suite_1600160441407.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/jioTestScenario20200915013530.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logcat/15Sep2020_133528_jioTestScenario.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logcat/15Sep2020_142235_jioTestScenario.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logcat/15Sep2020_142406_jioTestScenario.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logcat/15Sep2020_142736_jioTestScenario.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logcat/15Sep2020_142918_jioTestScenario.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logcat/15Sep2020_143143_jioTestScenario.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/screenshots/0915133531170jioTestScenario.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/apks/com.jio.myjio_6020_apps.evozi.com.apk" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/apks/com.jio.myjio_6020_apps.evozi.com.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/Jio/JioIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Jio/JioIndex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/Jio/JioIndexPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Jio/JioIndexPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/Jio/JioVerification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Jio/JioVerification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/framework/common/Generics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/framework/common/Generics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/framework/configurations/Configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/framework/configurations/Configuration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/framework/init/SeleniumInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/framework/init/SeleniumInit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/utils/ExcelUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/utils/ExcelUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/utils/ExcelUtilsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/utils/ExcelUtilsDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/utils/JIODataProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/utils/JIODataProvider.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +44,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1hVarIoIV52KQm312xwIhgxkxFC" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -36,7 +58,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="TestNG.JIODataProvider.test1">
+  <component name="RunManager" selected="TestNG.JioIndex.jioTestScenario">
     <configuration name="JIODataProvider (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TBLOCKS_JIO_ANDROID_POC" />
       <extension name="coverage">
@@ -88,24 +110,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JIODataProvider.test1 (2)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TBLOCKS_JIO_ANDROID_POC" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.utils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.utils" />
-      <option name="MAIN_CLASS_NAME" value="com.utils.JIODataProvider" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="JIODataProvider.test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TBLOCKS_JIO_ANDROID_POC" />
       <extension name="coverage">
@@ -124,13 +128,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="JioIndex.jioTestScenario" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TBLOCKS_JIO_ANDROID_POC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Jio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.Jio" />
+      <option name="MAIN_CLASS_NAME" value="com.Jio.JioIndex" />
+      <option name="METHOD_NAME" value="jioTestScenario" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.JioIndex.jioTestScenario" />
         <item itemvalue="TestNG.JIODataProvider.test1" />
         <item itemvalue="TestNG.JIODataProvider (2)" />
         <item itemvalue="TestNG.JIODataProvider (1)" />
         <item itemvalue="TestNG.JIODataProvider" />
-        <item itemvalue="TestNG.JIODataProvider.test1 (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -159,42 +181,51 @@
       <option name="project" value="LOCAL" />
       <updated>1600100425785</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Date : - 15/09/2020">
+      <created>1600149293359</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1600149293359</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="First commit - 14/09/2020" />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit - 14/09/2020" />
+    <MESSAGE value="Date : - 15/09/2020" />
+    <option name="LAST_COMMIT_MESSAGE" value="Date : - 15/09/2020" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="448" y="24" key="CommitChangelistDialog2" timestamp="1600149265257">
+    <state x="448" y="24" key="CommitChangelistDialog2" timestamp="1600149291267">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="448" y="24" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1600149265257" />
+    <state x="448" y="24" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1600149291267" />
     <state x="580" y="185" key="FileChooserDialogImpl" timestamp="1600098955715">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="580" y="185" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1600098955715" />
-    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1600149240639">
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1600160730355">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1600149240639" />
-    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1600149240639">
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1600160730355" />
+    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1600160730355">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1600149240639" />
-    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1600149240639">
+    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1600160730355" />
+    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1600160730355">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1600149240639" />
-    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1600149240639">
+    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1600160730355" />
+    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1600160730355">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1600149240639" />
-    <state x="392" y="151" key="Vcs.Push.Dialog.v2" timestamp="1600100428621">
+    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1600160730355" />
+    <state x="392" y="151" key="Vcs.Push.Dialog.v2" timestamp="1600149296027">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="151" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1600100428621" />
+    <state x="392" y="151" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1600149296027" />
     <state x="182" y="125" key="new project wizard" timestamp="1600148459429">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

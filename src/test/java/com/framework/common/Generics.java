@@ -37,13 +37,6 @@ import java.time.temporal.ChronoUnit;
 import java.util.*;
 import java.util.concurrent.TimeUnit;
 
-/**
- * Created by Rutu Shah.
- * Date: 2020-09-15
- * Time:
- * Project Name: JIO_ANDROID_POC
- */
-
 public class Generics extends TestLogger {
 
     protected static int _logStep = 1;
