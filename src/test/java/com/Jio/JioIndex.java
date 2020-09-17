@@ -14,13 +14,12 @@ import org.testng.annotations.Test;
 public class JioIndex extends JIODataProvider {
 
     @Test(dataProvider = "Jio")
-    public void jioTestScenario(String contactNo){
+    public void verifyLogin_currentPlan_rechargeForFriend(String contactNo){
 
         int numOfFailedSteps = 0;
         _logStep = 1;
 
-        testCaseLog("Jio_TestScenario :: To verify user can login into jio application, verify dashboard, current jio plan and " +
-                "perform recharge for a friend.");
+        testCaseLog("TS_MOB_001 :: To verify user can login into jio application, verify dashboard, current jio plan and perform recharge for a friend.");
 
         pause(2);
 
@@ -46,15 +45,111 @@ public class JioIndex extends JIODataProvider {
 
         jioVerification = jioIndexPage.clickOnGenerateOTPButton();
 
+       // jioIndexPage.getOTPFromNotification();
+
 //        jioIndexPage.permissions();
 
-      //  pause(5);
+        pause(5);
 
+        jioVerification = jioIndexPage.clickOnCloseNews();
 
+        testVerifyLog("4. Verify user is redirected to dashboard of My jio application after successful login.\n.");
+        if (jioVerification.verifyDashboardScreen()){
+            stepPassed();
+        }else {
+            stepFailure(androidDriver);
+            numOfFailedSteps++;
+        }
 
+        jioVerification = jioIndexPage.clickOnTeleComTab();
 
+        testVerifyLog("Verify user can see telecom tab screen.");
+        if (jioVerification.verifyTelecomScreen()){
+            stepPassed();
+        }else {
+            stepFailure(androidDriver);
+            numOfFailedSteps++;
+        }
 
+        jioVerification = jioIndexPage.getDetailsOfCurrentPlan();
 
+        jioVerification = jioIndexPage.clickOnCurrentPlan();
+
+        testVerifyLog("Verify current plan screen with its details present.");
+        if (jioVerification.verifyCurrentPlanScreen()){
+            stepPassed();
+        }else {
+            stepFailure(androidDriver);
+            numOfFailedSteps++;
+        }
+
+        jioVerification = jioIndexPage.clickOnBackButton();
+
+        testVerifyLog("Verify user is redirected to telecom screen, after user clicks on back button from current plan screen.");
+        if (jioVerification.verifyTelecomScreen()){
+            stepPassed();
+        }else {
+            stepFailure(androidDriver);
+            numOfFailedSteps++;
+        }
+
+        jioVerification = jioIndexPage.clickOnMenuButton();
+
+        testVerifyLog("Verify user can see Menu Screen.");
+        if (jioVerification.verifyMenuScreen()){
+            stepPassed();
+        }else {
+            stepFailure(androidDriver);
+            numOfFailedSteps++;
+        }
+
+        jioVerification = jioIndexPage.clickOnRechargeForFriendButton();
+
+        testVerifyLog("Verify user can see recharge for a friend screen.");
+        if (jioVerification.verifyRechargeForFriendScreen()){
+            stepPassed();
+        }else {
+            stepFailure(androidDriver);
+            numOfFailedSteps++;
+        }
+
+        jioVerification = jioIndexPage.enterInvalidMobileNumber();
+
+        jioVerification = jioIndexPage.clickOnProceedButton();
+
+        testVerifyLog("Verify user can see validation message for \"Please enter a valid Jio Number\"");
+        if (jioVerification.verifyInvalidNumberValidation()){
+            stepPassed();
+        }else {
+            stepFailure(androidDriver);
+            numOfFailedSteps++;
+        }
+
+        jioVerification = jioIndexPage.clickOnBackButtonFromRechargeFriendScreen();
+
+        jioVerification = jioIndexPage.clickOnMenuButton();
+
+        jioVerification = jioIndexPage.clickOnSettings();
+
+        jioVerification = jioIndexPage.clickOnLogoutButton();
+
+        testVerifyLog("Verify user can see Logout Popup.");
+        if (jioVerification.verifyLogoutPopup()){
+            stepPassed();
+        }else {
+            stepFailure(androidDriver);
+            numOfFailedSteps++;
+        }
+
+        jioVerification = jioIndexPage.clickOnYesButton();
+
+        testVerifyLog("Verify user is logged out successfully.");
+        if (jioVerification.verifyJioHomeScreen()){
+            stepPassed();
+        }else {
+            stepFailure(androidDriver);
+            numOfFailedSteps++;
+        }
 
         if (numOfFailedSteps > 0) Assert.fail("Test Verification failed, please check test logs.");
 

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TBlocks_POC_Zain_WebApplication" verbose="10" parallel="false" thread-count="1">
+
+    <test name="TS_MOB_001 :: To verify user can login into jio application, verify dashboard, current jio plan and perform recharge for a friend.">
+        <classes>
+            <class name="com.Jio.JioIndex">
+                <methods>
+                    <include name="verifyLogin_currentPlan_rechargeForFriend"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
