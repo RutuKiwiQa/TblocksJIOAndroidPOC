@@ -194,11 +194,13 @@ public class JioIndexPage extends AbstractPage {
     }
 
     public JioVerification clickOnBackButtonFromRechargeFriendScreen(){
-        testStepsLog(_logStep++,"Click on Back button from recharge for a friend screen.");
+        testStepsLog(_logStep++,"Click on Back button.");
         clickOn(androidDriver,btnBack);
         pause(3);
         return new JioVerification(androidDriver);
     }
+
+
 
     public JioVerification clickOnBackFromRechargeScreen(){
         testStepsLog(_logStep++,"Click on Back button from recharge for a friend screen.");
@@ -231,6 +233,13 @@ public class JioIndexPage extends AbstractPage {
     public JioVerification clickOnYesButton(){
         testStepsLog(_logStep++,"Click on Yes Button.");
         clickOn(androidDriver,btnYes);
+        pause(2);
+        return new JioVerification(androidDriver);
+    }
+
+    public JioVerification clickOnRechargeButton(){
+        testStepsLog(_logStep++,"Click on Recharge Button.");
+        clickOn(androidDriver,btnRecharge);
         pause(2);
         return new JioVerification(androidDriver);
     }

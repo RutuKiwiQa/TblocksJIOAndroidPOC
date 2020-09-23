@@ -57,7 +57,7 @@
       <![CDATA[<br></br><strong>Current Plan Amount :  - </strong><font color=#9400D3>599</font>]]>
     </line>
     <line>
-      <![CDATA[<br></br><strong>Current Plan Data :  - </strong><font color=#9400D3>2</font>]]>
+      <![CDATA[<br></br><strong>Current Plan Data :  - </strong><font color=#9400D3>1.99</font>]]>
     </line>
     <line>
       <![CDATA[<br></br>Step 5 : Click on Current Plan button.]]>
@@ -75,10 +75,10 @@
       <![CDATA[<br></br><strong>Remaining SMS :  - </strong><font color=#9400D3>remaining of 100 SMS/Day</font>]]>
     </line>
     <line>
-      <![CDATA[<br></br><strong>Remaining Data Left :  - </strong><font color=#9400D3>2 GB</font>]]>
+      <![CDATA[<br></br><strong>Remaining Data Left :  - </strong><font color=#9400D3>1.99 GB</font>]]>
     </line>
     <line>
-      <![CDATA[<br></br><strong>Voice - Non Jio :  - </strong><font color=#9400D3>2214.00 Min</font>]]>
+      <![CDATA[<br></br><strong>Voice - Non Jio :  - </strong><font color=#9400D3>2213.00 Min</font>]]>
     </line>
     <line>
       <![CDATA[<br></br><strong>Unlimited Omnet :  - </strong><font color=#9400D3>Unlimited</font>]]>
@@ -123,7 +123,7 @@
       <![CDATA[<br></br><Strong><font color=#008000>Pass</font></strong>]]>
     </line>
     <line>
-      <![CDATA[<br></br><strong>Mobile Number - </strong><font color=#9400D3>111694</font>]]>
+      <![CDATA[<br></br><strong>Mobile Number - </strong><font color=#9400D3>105961</font>]]>
     </line>
     <line>
       <![CDATA[<br></br>Step 9 : Click on Proceed Button.]]>
@@ -162,23 +162,23 @@
       <![CDATA[<br></br><Strong><font color=#008000>Pass</font></strong>]]>
     </line>
   </reporter-output>
-  <suite name="TBlocks_POC_Zain_WebApplication" duration-ms="154887" started-at="2020-09-17T10:25:14 IST" finished-at="2020-09-17T10:27:48 IST">
+  <suite name="TBlocks_POC_Zain_WebApplication" duration-ms="134877" started-at="2020-09-17T17:53:16 IST" finished-at="2020-09-17T17:55:31 IST">
     <groups>
     </groups>
-    <test name="TS_MOB_001 :: To verify user can login into jio application, verify dashboard, current jio plan and perform recharge for a friend." duration-ms="154887" started-at="2020-09-17T10:25:14 IST" finished-at="2020-09-17T10:27:48 IST">
+    <test name="TS_MOB_001 :: To verify user can login into jio application, verify dashboard, current jio plan and perform recharge for a friend." duration-ms="134877" started-at="2020-09-17T17:53:16 IST" finished-at="2020-09-17T17:55:31 IST">
       <class name="com.Jio.JioIndex">
-        <test-method status="PASS" signature="startReport(org.testng.ITestContext)[pri:0, instance:com.Jio.JioIndex@73a1e9a9]" name="startReport" is-config="true" duration-ms="124" started-at="2020-09-17T10:25:13 IST" finished-at="2020-09-17T10:25:14 IST">
+        <test-method status="PASS" signature="startReport(org.testng.ITestContext)[pri:0, instance:com.Jio.JioIndex@73a1e9a9]" name="startReport" is-config="true" duration-ms="149" started-at="2020-09-17T17:53:16 IST" finished-at="2020-09-17T17:53:16 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@7435a578]]>
+                <![CDATA[org.testng.TestRunner@28d79cba]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startReport -->
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.Jio.JioIndex@73a1e9a9]" name="setUp" is-config="true" duration-ms="25190" started-at="2020-09-17T10:25:14 IST" finished-at="2020-09-17T10:25:40 IST">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.Jio.JioIndex@73a1e9a9]" name="setUp" is-config="true" duration-ms="22803" started-at="2020-09-17T17:53:17 IST" finished-at="2020-09-17T17:53:39 IST">
           <params>
             <param index="0">
               <value>
@@ -189,7 +189,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyLogin_currentPlan_rechargeForFriend(java.lang.String)[pri:0, instance:com.Jio.JioIndex@73a1e9a9]" name="verifyLogin_currentPlan_rechargeForFriend" duration-ms="128037" started-at="2020-09-17T10:25:40 IST" data-provider="Jio" finished-at="2020-09-17T10:27:48 IST">
+        <test-method status="PASS" signature="verifyLogin_currentPlan_rechargeForFriend(java.lang.String)[pri:0, instance:com.Jio.JioIndex@73a1e9a9]" name="verifyLogin_currentPlan_rechargeForFriend" duration-ms="110463" started-at="2020-09-17T17:53:39 IST" data-provider="Jio" finished-at="2020-09-17T17:55:30 IST">
           <params>
             <param index="0">
               <value>
@@ -254,7 +254,7 @@
               <![CDATA[<br></br><strong>Current Plan Amount :  - </strong><font color=#9400D3>599</font>]]>
             </line>
             <line>
-              <![CDATA[<br></br><strong>Current Plan Data :  - </strong><font color=#9400D3>2</font>]]>
+              <![CDATA[<br></br><strong>Current Plan Data :  - </strong><font color=#9400D3>1.99</font>]]>
             </line>
             <line>
               <![CDATA[<br></br>Step 5 : Click on Current Plan button.]]>
@@ -272,10 +272,10 @@
               <![CDATA[<br></br><strong>Remaining SMS :  - </strong><font color=#9400D3>remaining of 100 SMS/Day</font>]]>
             </line>
             <line>
-              <![CDATA[<br></br><strong>Remaining Data Left :  - </strong><font color=#9400D3>2 GB</font>]]>
+              <![CDATA[<br></br><strong>Remaining Data Left :  - </strong><font color=#9400D3>1.99 GB</font>]]>
             </line>
             <line>
-              <![CDATA[<br></br><strong>Voice - Non Jio :  - </strong><font color=#9400D3>2214.00 Min</font>]]>
+              <![CDATA[<br></br><strong>Voice - Non Jio :  - </strong><font color=#9400D3>2213.00 Min</font>]]>
             </line>
             <line>
               <![CDATA[<br></br><strong>Unlimited Omnet :  - </strong><font color=#9400D3>Unlimited</font>]]>
@@ -320,7 +320,7 @@
               <![CDATA[<br></br><Strong><font color=#008000>Pass</font></strong>]]>
             </line>
             <line>
-              <![CDATA[<br></br><strong>Mobile Number - </strong><font color=#9400D3>111694</font>]]>
+              <![CDATA[<br></br><strong>Mobile Number - </strong><font color=#9400D3>105961</font>]]>
             </line>
             <line>
               <![CDATA[<br></br>Step 9 : Click on Proceed Button.]]>
@@ -360,7 +360,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyLogin_currentPlan_rechargeForFriend -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.Jio.JioIndex@73a1e9a9]" name="tearDown" is-config="true" duration-ms="881" started-at="2020-09-17T10:27:48 IST" finished-at="2020-09-17T10:27:48 IST">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.Jio.JioIndex@73a1e9a9]" name="tearDown" is-config="true" duration-ms="760" started-at="2020-09-17T17:55:30 IST" finished-at="2020-09-17T17:55:31 IST">
           <params>
             <param index="0">
               <value>
@@ -371,7 +371,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="endReport()[pri:0, instance:com.Jio.JioIndex@73a1e9a9]" name="endReport" is-config="true" duration-ms="661" started-at="2020-09-17T10:27:49 IST" finished-at="2020-09-17T10:27:49 IST">
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.Jio.JioIndex@73a1e9a9]" name="endReport" is-config="true" duration-ms="719" started-at="2020-09-17T17:55:31 IST" finished-at="2020-09-17T17:55:31 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->

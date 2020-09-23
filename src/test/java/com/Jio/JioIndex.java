@@ -4,6 +4,8 @@ import com.utils.JIODataProvider;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import java.io.IOException;
+
 /**
  * Created by Rutu Shah.
  * Date: 2020-09-15
@@ -155,4 +157,136 @@ public class JioIndex extends JIODataProvider {
 
     }
 
+    @Test(dataProvider = "Jio")
+    public void verify2GBPlansPriceVerification(String contactNo) throws IOException {
+        int numOfFailedSteps = 0;
+        _logStep = 1;
+
+        testCaseLog("TS_MOB_002 :: To verify user can login into jio application, and verify verify 2 GB/Day Packs pricing of plans, validity and benefits.");
+
+        pause(2);
+
+        jioIndexPage.skipIntroduction();
+
+        testVerifyLog("Verify user can see Home Screen of \"Jio Application \" with following fields" +
+                "<br> 1. Mobile Tab." +
+                "<br> 2. JioFiber Tab." +
+                "<br> 3. Jiofi Tab. " +
+                "<br> 4. JioLink Tab." +
+                "<br> 5. Enter mobile number text field." +
+                "<br> 6. Generate OTP button." +
+                "<br> 7. Login with QR." +
+                "<br> 8. Not a jio user Button.");
+        if (jioVerification.verifyJioHomeScreen()){
+            stepPassed();
+        }else {
+            stepFailure(androidDriver);
+            numOfFailedSteps++;
+        }
+
+        jioVerification = jioIndexPage.enterMobileNumber(contactNo);
+
+        jioVerification = jioIndexPage.clickOnGenerateOTPButton();
+
+      //  jioIndexPage.getOTPFromNotification();
+
+        pause(5);
+
+        jioVerification = jioIndexPage.clickOnCloseNews();
+
+        testVerifyLog("4. Verify user is redirected to dashboard of My jio application after successful login.\n.");
+        if (jioVerification.verifyDashboardScreen()){
+            stepPassed();
+        }else {
+            stepFailure(androidDriver);
+            numOfFailedSteps++;
+        }
+
+        jioVerification = jioIndexPage.clickOnRechargeButton();
+
+        testVerifyLog("Verify pricing of 2GB/Day plans on Recharge screen and it should be as below " +
+                "<br> Verify first plan of 2GB/Day Page.");
+        if (jioVerification.verify2GBPerDayFirstPlansPricing()){
+            stepPassed();
+        }else {
+            stepFailure(androidDriver);
+            numOfFailedSteps++;
+        }
+
+        testVerifyLog("Verify pricing of 2GB/Day plans on Recharge screen and it should be as below " +
+                "<br> Verify second plan of 2GB/Day Page.");
+        if (jioVerification.verify2GBPerDaySecondPlansPricing()){
+            stepPassed();
+        }else {
+            stepFailure(androidDriver);
+            numOfFailedSteps++;
+        }
+
+        testVerifyLog("Verify pricing of 2GB/Day plans on Recharge screen and it should be as below " +
+                "<br> Verify third plan of 2GB/Day Page.");
+        if (jioVerification.verify2GBPerDayThirdPlansPricing()){
+            stepPassed();
+        }else {
+            stepFailure(androidDriver);
+            numOfFailedSteps++;
+        }
+
+        testVerifyLog("Verify pricing of 2GB/Day plans on Recharge screen and it should be as below " +
+                "<br> Verify forth plan of 2GB/Day Page.");
+        if (jioVerification.verify2GBPerDayForthPlansPricing()){
+            stepPassed();
+        }else {
+            stepFailure(androidDriver);
+            numOfFailedSteps++;
+        }
+
+        testVerifyLog("Verify pricing of 2GB/Day plans on Recharge screen and it should be as below " +
+                "<br> Verify fifth plan of 2GB/Day Page.");
+        if (jioVerification.verify2GBPerDayFifthPlansPricing()){
+            stepPassed();
+        }else {
+            stepFailure(androidDriver);
+            numOfFailedSteps++;
+        }
+
+        testVerifyLog("Verify pricing of 2GB/Day plans on Recharge screen and it should be as below " +
+                "<br> Verify Sixth plan of 2GB/Day Page.");
+        if (jioVerification.verify2GBPerDaySixthPlansPricing()){
+            stepPassed();
+        }else {
+            stepFailure(androidDriver);
+            numOfFailedSteps++;
+        }
+
+        pause(2);
+
+        jioVerification = jioIndexPage.clickOnBackButtonFromRechargeFriendScreen();
+
+        jioVerification = jioIndexPage.clickOnMenuButton();
+
+        jioVerification = jioIndexPage.clickOnSettings();
+
+        jioVerification = jioIndexPage.clickOnLogoutButton();
+
+        testVerifyLog("Verify user can see Logout Popup.");
+        if (jioVerification.verifyLogoutPopup()){
+            stepPassed();
+        }else {
+            stepFailure(androidDriver);
+            numOfFailedSteps++;
+        }
+
+        jioVerification = jioIndexPage.clickOnYesButton();
+
+        testVerifyLog("Verify user is logged out successfully.");
+        if (jioVerification.verifyJioHomeScreen()){
+            stepPassed();
+        }else {
+            stepFailure(androidDriver);
+            numOfFailedSteps++;
+        }
+
+
+        if (numOfFailedSteps > 0) Assert.fail("Test Verification failed, please check test logs.");
+    }
 }

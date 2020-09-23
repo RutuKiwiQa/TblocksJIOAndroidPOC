@@ -2,93 +2,62 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5855719-ddee-4836-8bf7-3b96b9189db8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ExtentReports/Report_TBlocks_POC_Zain_WebApplication.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jio.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/jioTestScenario20200915033237.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/jioTestScenario20200915045413.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/jioTestScenario20200915051147.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/jioTestScenario20200915051322.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/jioTestScenario20200916011541.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/jioTestScenario20200916011747.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/jioTestScenario20200916012053.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/jioTestScenario20200916012232.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/jioTestScenario20200916094049.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logcat/15Sep2020_153235_jioTestScenario.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logcat/15Sep2020_165412_jioTestScenario.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logcat/15Sep2020_171146_jioTestScenario.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logcat/15Sep2020_171321_jioTestScenario.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logcat/16Sep2020_131540_jioTestScenario.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logcat/16Sep2020_131746_jioTestScenario.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logcat/16Sep2020_132051_jioTestScenario.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logcat/16Sep2020_132231_jioTestScenario.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logcat/16Sep2020_133055_null.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logcat/16Sep2020_133220_jioTestScenario.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logcat/16Sep2020_212406_null.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logcat/16Sep2020_212509_null.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logcat/16Sep2020_212629_null.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logcat/16Sep2020_213510_jioTestScenario.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logcat/16Sep2020_213629_jioTestScenario.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logcat/16Sep2020_213923_jioTestScenario.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logcat/16Sep2020_214048_jioTestScenario.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logcat/16Sep2020_214941_jioTestScenario.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logcat/16Sep2020_215053_null.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logcat/16Sep2020_215841_jioTestScenario.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logcat/16Sep2020_232615_verifyLogin_currentPlan_rechargeForFriend.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logcat/17Sep2020_095527_verifyLogin_currentPlan_rechargeForFriend.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logcat/17Sep2020_100455_verifyLogin_currentPlan_rechargeForFriend.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logcat/17Sep2020_102748_verifyLogin_currentPlan_rechargeForFriend.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/TBlocks_POC_Zain_WebApplication/TS_MOB_001 __ To verify user can login into jio application, verify dashboard, current jio plan and perform recharge for a friend..html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/TBlocks_POC_Zain_WebApplication/TS_MOB_001 __ To verify user can login into jio application, verify dashboard, current jio plan and perform recharge for a friend..xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/bullet_point.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/collapseall.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/failed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/jquery-1.7.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/jquery-3.4.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-com.Jio.JioIndex.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/navigator-bullet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/TBlocks_POC_Zain_WebApplication/TS_MOB_001 __ To verify user can login into jio application, verify dashboard, current jio plan and perform recharge for a friend..properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/TBlocks_POC_Zain_WebApplication/classes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/TBlocks_POC_Zain_WebApplication/groups.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/TBlocks_POC_Zain_WebApplication/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/TBlocks_POC_Zain_WebApplication/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/TBlocks_POC_Zain_WebApplication/methods-alphabetical.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/TBlocks_POC_Zain_WebApplication/methods-not-run.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/TBlocks_POC_Zain_WebApplication/methods.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/TBlocks_POC_Zain_WebApplication/reporter-output.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/TBlocks_POC_Zain_WebApplication/testng.xml.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/TBlocks_POC_Zain_WebApplication/toc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/passed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/screenshots/0915153238248jioTestScenario.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/screenshots/0915165415408jioTestScenario.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/screenshots/0915171148984jioTestScenario.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/screenshots/0915171323793jioTestScenario.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/screenshots/0916131542176jioTestScenario.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/screenshots/0916131748568jioTestScenario.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/screenshots/0916132054340jioTestScenario.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/screenshots/0916132233912jioTestScenario.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/skipped.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/testng-reports.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/testng-reports.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/testng-reports1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/testng-reports2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/testng.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExtentReports.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExtentReports/Report_Default Suite.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/verify2GBPlansPriceVerification20200923033841.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/verify2GBPlansPriceVerification20200923034951.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/verify2GBPlansPriceVerification20200923035224.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/verify2GBPlansPriceVerification20200923050945.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/verify2GBPlansPriceVerification20200923051229.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/verify2GBPlansPriceVerification20200923051844.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/verify2GBPlansPriceVerification20200923052709.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/verify2GBPlansPriceVerification20200923053641.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/verify2GBPlansPriceVerification20200923095515.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logcat/17Sep2020_175530_verifyLogin_currentPlan_rechargeForFriend.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logcat/23Sep2020_153839_verify2GBPlansPriceVerification.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logcat/23Sep2020_154950_verify2GBPlansPriceVerification.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logcat/23Sep2020_155222_verify2GBPlansPriceVerification.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logcat/23Sep2020_161202_verify2GBPlansPriceVerification.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logcat/23Sep2020_170944_verify2GBPlansPriceVerification.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logcat/23Sep2020_171228_verify2GBPlansPriceVerification.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logcat/23Sep2020_171843_verify2GBPlansPriceVerification.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logcat/23Sep2020_172708_verify2GBPlansPriceVerification.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logcat/23Sep2020_173640_verify2GBPlansPriceVerification.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logcat/23Sep2020_215514_verify2GBPlansPriceVerification.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logcat/23Sep2020_220100_verify2GBPlansPriceVerification.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logcat/23Sep2020_224046_verify2GBPlansPriceVerification.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logcat/23Sep2020_224617_verify2GBPlansPriceVerification.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/screenshots/0923153843786verify2GBPlansPriceVerification.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/screenshots/0923154952943verify2GBPlansPriceVerification.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/screenshots/0923155225296verify2GBPlansPriceVerification.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/screenshots/0923170946845verify2GBPlansPriceVerification.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/screenshots/0923171225288.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/screenshots/0923171230543verify2GBPlansPriceVerification.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/screenshots/0923171840761.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/screenshots/0923171845808verify2GBPlansPriceVerification.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/screenshots/0923172705278.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/screenshots/0923172710245verify2GBPlansPriceVerification.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/screenshots/0923173642896verify2GBPlansPriceVerification.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/screenshots/0923215510923.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/screenshots/0923215516113verify2GBPlansPriceVerification.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExtentReports/Report_Default Suite_1600157074683.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExtentReports/Report_Default Suite_1600159927711.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExtentReports/Report_Default Suite_1600159985525.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExtentReports/Report_Default Suite_1600160180442.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExtentReports/Report_Default Suite_1600160277942.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExtentReports/Report_Default Suite_1600160441407.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReports/Report_TBlocks_POC_Zain_WebApplication.html" beforeDir="false" afterPath="$PROJECT_DIR$/ExtentReports/Report_TBlocks_POC_Zain_WebApplication.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jio.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Jio.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/TestData.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/TestData.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/Jio/JioIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Jio/JioIndex.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/Jio/JioIndexPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Jio/JioIndexPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/Jio/JioVerification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Jio/JioVerification.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/framework/common/Generics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/framework/common/Generics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/framework/init/ExtentInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/framework/init/ExtentInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/utils/JIODataProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/utils/JIODataProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/TBlocks_POC_Zain_WebApplication/TS_MOB_001 __ To verify user can login into jio application, verify dashboard, current jio plan and perform recharge for a friend..html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/TBlocks_POC_Zain_WebApplication/TS_MOB_001 __ To verify user can login into jio application, verify dashboard, current jio plan and perform recharge for a friend..html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/TBlocks_POC_Zain_WebApplication/TS_MOB_001 __ To verify user can login into jio application, verify dashboard, current jio plan and perform recharge for a friend..xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/TBlocks_POC_Zain_WebApplication/TS_MOB_001 __ To verify user can login into jio application, verify dashboard, current jio plan and perform recharge for a friend..xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.Jio.JioIndex.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-com.Jio.JioIndex.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/TBlocks_POC_Zain_WebApplication/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/TBlocks_POC_Zain_WebApplication/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/TBlocks_POC_Zain_WebApplication/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/TBlocks_POC_Zain_WebApplication/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/TBlocks_POC_Zain_WebApplication/reporter-output.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/TBlocks_POC_Zain_WebApplication/reporter-output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +90,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="TestNG.E:/TBLOCKS_JIO_ANDROID_POC/Jio.xml">
+  <component name="RunManager" selected="TestNG.JioIndex.verify2GBPlansPriceVerification">
     <configuration name="E:/TBLOCKS_JIO_ANDROID_POC/Jio.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TBLOCKS_JIO_ANDROID_POC" />
       <useClassPathOnly />
@@ -135,23 +104,6 @@
       <option name="OUTPUT_DIRECTORY" value="" />
       <option name="USE_DEFAULT_REPORTERS" value="true" />
       <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JIODataProvider (2)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TBLOCKS_JIO_ANDROID_POC" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.utils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.utils" />
-      <option name="MAIN_CLASS_NAME" value="com.utils.JIODataProvider" />
-      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -194,6 +146,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="JioIndex.verify2GBPlansPriceVerification" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TBLOCKS_JIO_ANDROID_POC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Jio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.Jio" />
+      <option name="MAIN_CLASS_NAME" value="com.Jio.JioIndex" />
+      <option name="METHOD_NAME" value="verify2GBPlansPriceVerification" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JioIndex.verifyLogin_currentPlan_rechargeForFriend" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TBLOCKS_JIO_ANDROID_POC" />
       <extension name="coverage">
@@ -215,17 +185,17 @@
     <list>
       <item itemvalue="TestNG.E:/TBLOCKS_JIO_ANDROID_POC/Jio.xml" />
       <item itemvalue="TestNG.JIODataProvider.test1" />
-      <item itemvalue="TestNG.JIODataProvider (2)" />
       <item itemvalue="TestNG.JioIndex.jioTestScenario" />
       <item itemvalue="TestNG.JioIndex.verifyLogin_currentPlan_rechargeForFriend" />
+      <item itemvalue="TestNG.JioIndex.verify2GBPlansPriceVerification" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.JioIndex.verify2GBPlansPriceVerification" />
         <item itemvalue="TestNG.E:/TBLOCKS_JIO_ANDROID_POC/Jio.xml" />
         <item itemvalue="TestNG.JioIndex.verifyLogin_currentPlan_rechargeForFriend" />
         <item itemvalue="TestNG.JioIndex.jioTestScenario" />
         <item itemvalue="TestNG.JIODataProvider.test1" />
-        <item itemvalue="TestNG.JIODataProvider (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -268,14 +238,22 @@
       <option name="project" value="LOCAL" />
       <updated>1600161109619</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Date : - 17/09/2020">
+      <created>1600318936823</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1600318936823</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="First commit - 14/09/2020" />
     <MESSAGE value="Date : - 15/09/2020" />
-    <option name="LAST_COMMIT_MESSAGE" value="Date : - 15/09/2020" />
+    <MESSAGE value="Date : - 17/09/2020" />
+    <option name="LAST_COMMIT_MESSAGE" value="Date : - 17/09/2020" />
   </component>
   <component name="WindowStateProjectService">
     <state x="254" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600318501474">
@@ -286,30 +264,30 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="530" y="177" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1600.860@0.0.1600.860" timestamp="1600278274481" />
-    <state x="448" y="24" key="CommitChangelistDialog2" timestamp="1600318736789">
+    <state x="448" y="24" key="CommitChangelistDialog2" timestamp="1600318929836">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="448" y="24" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1600318736789" />
+    <state x="448" y="24" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1600318929836" />
     <state x="580" y="185" key="FileChooserDialogImpl" timestamp="1600098955715">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="580" y="185" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1600098955715" />
-    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1600318728602">
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1600881695695">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1600318728602" />
-    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1600318728602">
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1600881695695" />
+    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1600881695695">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1600318728602" />
-    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1600318728602">
+    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1600881695695" />
+    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1600881695695">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1600318728602" />
-    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1600318728602">
+    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1600881695695" />
+    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1600881695695">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1600318728602" />
+    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1600881695695" />
     <state width="1557" height="276" key="GridCell.Tab.1.bottom" timestamp="1600165372737">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -330,13 +308,17 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="303" y="75" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1600246020980" />
-    <state x="392" y="151" key="Vcs.Push.Dialog.v2" timestamp="1600161134313">
+    <state x="392" y="151" key="Vcs.Push.Dialog.v2" timestamp="1600318949677">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="151" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1600161134313" />
+    <state x="392" y="151" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1600318949677" />
     <state x="182" y="125" key="new project wizard" timestamp="1600148459429">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="182" y="125" key="new project wizard/0.0.1600.860@0.0.1600.860" timestamp="1600148459429" />
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1600858037161">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1600858037161" />
   </component>
 </project>

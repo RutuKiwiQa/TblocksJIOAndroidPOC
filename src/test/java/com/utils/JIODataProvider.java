@@ -2,6 +2,9 @@ package com.utils;
 
 import com.framework.configurations.Configuration;
 import com.framework.init.SeleniumInit;
+import org.apache.poi.ss.usermodel.DataFormatter;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -16,6 +19,8 @@ import java.io.IOException;
 
 public class JIODataProvider extends SeleniumInit implements Configuration {
 //public class JIODataProvider implements Configuration{
+
+    public static String excelPath = "./Resources/TestData.xlsx"; //relative path of excel
 
     @Test(dataProvider = "Jio")
     public void test1(String contactNo){
@@ -50,6 +55,16 @@ public class JIODataProvider extends SeleniumInit implements Configuration {
           //  System.out.println();
         }
         return data;
+    }
+
+
+    public static String getCellData(String sheetName, int rowNum, int colNum) throws IOException {
+        XSSFWorkbook workbook = new XSSFWorkbook(excelPath);
+        XSSFSheet sheet = workbook.getSheet(sheetName);
+        DataFormatter formatter = new DataFormatter();
+        Object value = formatter.formatCellValue(sheet.getRow(rowNum).getCell(colNum));
+      //  System.out.println("Cell Data : " + value);
+        return String.valueOf(value);
     }
 
 }

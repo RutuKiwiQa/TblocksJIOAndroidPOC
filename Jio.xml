@@ -12,4 +12,14 @@
         </classes>
     </test>
 
+    <test name="TS_MOB_002 :: To verify user can login into jio application, and verify verify 2 GB/Day Packs pricing of plans, validity and benefits.">
+        <classes>
+            <class name="com.Jio.JioIndex">
+                <methods>
+                    <include name="verify2GBPlansPriceVerification"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
 </suite>
